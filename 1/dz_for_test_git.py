@@ -60,3 +60,4 @@ print(f'Его зовут - {student2.name}!')
 print(student2.run())
 
 
+# 11 задание конец
