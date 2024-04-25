@@ -1,34 +1,34 @@
-# # ооп часть 1
-#
-# # объявление класса
-#
-# class Cat:
-#     #атрибуты класса или константы класса = переменная
-#     paws = 4
-#     tail = 1
-#     mustache = True
-#     head = 1
-#     #color = 'red'
-# # финкция инициализации
-#     def __init__(self, color):
-#         self.color = color
-#
-#
-#
-# # создание объекта (экземпляра класса)
-# my_cat1 = Cat() # создаем  объкт класса Cat
-# print(type(my_cat1))
-# # вывод параметров объекта
-# print(f'у моего кота {my_cat1.tail} хвост')
-# print(f'у моего кота {my_cat1.color} color')
-#
-# my_cat2 = Cat('white')
-# print(type(my_cat2))
-# print(f'у моего второго кота {my_cat2.tail} хвост')
-# print(f'у моего второго кота {my_cat2.color} color')
-#
-# my_cat3 = Cat('black')
-# print(f'у моего 3 кота {my_cat3.color} color')
+# ооп часть 1
+
+# объявление класса
+
+class Cat:
+    #атрибуты класса или константы класса = переменная
+    paws = 4
+    tail = 1
+    mustache = True
+    head = 1
+    #color = 'red'
+# финкция инициализации
+    def __init__(self, color):
+        self.color = color
+
+
+
+# создание объекта (экземпляра класса)
+my_cat1 = Cat() # создаем  объкт класса Cat
+print(type(my_cat1))
+# вывод параметров объекта
+print(f'у моего кота {my_cat1.tail} хвост')
+print(f'у моего кота {my_cat1.color} color')
+
+my_cat2 = Cat('white')
+print(type(my_cat2))
+print(f'у моего второго кота {my_cat2.tail} хвост')
+print(f'у моего второго кота {my_cat2.color} color')
+
+my_cat3 = Cat('black')
+print(f'у моего 3 кота {my_cat3.color} color')
 
 #zad 1
 # создать класс Студент у которого специализация "computer science" общая для всех
